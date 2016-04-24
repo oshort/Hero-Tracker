@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BAFC6EE1CCD594600CF0D42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFC6ED1CCD594600CF0D42 /* main.m */; };
+		7BAFC6F11CCD594600CF0D42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFC6F01CCD594600CF0D42 /* AppDelegate.m */; };
+		7BAFC6F41CCD594600CF0D42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFC6F31CCD594600CF0D42 /* ViewController.m */; };
+		7BAFC6F71CCD594600CF0D42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAFC6F51CCD594600CF0D42 /* Main.storyboard */; };
+		7BAFC6FA1CCD594600CF0D42 /* HeroTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFC6F81CCD594600CF0D42 /* HeroTracker.xcdatamodeld */; };
+		7BAFC6FC1CCD594600CF0D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAFC6FB1CCD594600CF0D42 /* Assets.xcassets */; };
+		7BAFC6FF1CCD594600CF0D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAFC6FD1CCD594600CF0D42 /* LaunchScreen.storyboard */; };
+		7BAFC70A1CCD594700CF0D42 /* HeroTrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFC7091CCD594700CF0D42 /* HeroTrackerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BAFC7061CCD594700CF0D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BAFC6E11CCD594600CF0D42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BAFC6E81CCD594600CF0D42;
+			remoteInfo = HeroTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BAFC6E91CCD594600CF0D42 /* HeroTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAFC6ED1CCD594600CF0D42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BAFC6EF1CCD594600CF0D42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BAFC6F01CCD594600CF0D42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BAFC6F21CCD594600CF0D42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7BAFC6F31CCD594600CF0D42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7BAFC6F61CCD594600CF0D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BAFC6F91CCD594600CF0D42 /* HeroTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeroTracker.xcdatamodel; sourceTree = "<group>"; };
+		7BAFC6FB1CCD594600CF0D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BAFC6FE1CCD594600CF0D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BAFC7001CCD594600CF0D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BAFC7051CCD594700CF0D42 /* HeroTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAFC7091CCD594700CF0D42 /* HeroTrackerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroTrackerUITests.m; sourceTree = "<group>"; };
+		7BAFC70B1CCD594700CF0D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BAFC6E61CCD594600CF0D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BAFC7021CCD594700CF0D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BAFC6E01CCD594600CF0D42 = {
+			isa = PBXGroup;
+			children = (
+				7BAFC6EB1CCD594600CF0D42 /* HeroTracker */,
+				7BAFC7081CCD594700CF0D42 /* HeroTrackerUITests */,
+				7BAFC6EA1CCD594600CF0D42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BAFC6EA1CCD594600CF0D42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BAFC6E91CCD594600CF0D42 /* HeroTracker.app */,
+				7BAFC7051CCD594700CF0D42 /* HeroTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BAFC6EB1CCD594600CF0D42 /* HeroTracker */ = {
+			isa = PBXGroup;
+			children = (
+				7BAFC6EF1CCD594600CF0D42 /* AppDelegate.h */,
+				7BAFC6F01CCD594600CF0D42 /* AppDelegate.m */,
+				7BAFC6F21CCD594600CF0D42 /* ViewController.h */,
+				7BAFC6F31CCD594600CF0D42 /* ViewController.m */,
+				7BAFC6F51CCD594600CF0D42 /* Main.storyboard */,
+				7BAFC6FB1CCD594600CF0D42 /* Assets.xcassets */,
+				7BAFC6FD1CCD594600CF0D42 /* LaunchScreen.storyboard */,
+				7BAFC7001CCD594600CF0D42 /* Info.plist */,
+				7BAFC6F81CCD594600CF0D42 /* HeroTracker.xcdatamodeld */,
+				7BAFC6EC1CCD594600CF0D42 /* Supporting Files */,
+			);
+			path = HeroTracker;
+			sourceTree = "<group>";
+		};
+		7BAFC6EC1CCD594600CF0D42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BAFC6ED1CCD594600CF0D42 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BAFC7081CCD594700CF0D42 /* HeroTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BAFC7091CCD594700CF0D42 /* HeroTrackerUITests.m */,
+				7BAFC70B1CCD594700CF0D42 /* Info.plist */,
+			);
+			path = HeroTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BAFC6E81CCD594600CF0D42 /* HeroTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BAFC70E1CCD594700CF0D42 /* Build configuration list for PBXNativeTarget "HeroTracker" */;
+			buildPhases = (
+				7BAFC6E51CCD594600CF0D42 /* Sources */,
+				7BAFC6E61CCD594600CF0D42 /* Frameworks */,
+				7BAFC6E71CCD594600CF0D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeroTracker;
+			productName = HeroTracker;
+			productReference = 7BAFC6E91CCD594600CF0D42 /* HeroTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BAFC7041CCD594700CF0D42 /* HeroTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BAFC7111CCD594700CF0D42 /* Build configuration list for PBXNativeTarget "HeroTrackerUITests" */;
+			buildPhases = (
+				7BAFC7011CCD594700CF0D42 /* Sources */,
+				7BAFC7021CCD594700CF0D42 /* Frameworks */,
+				7BAFC7031CCD594700CF0D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BAFC7071CCD594700CF0D42 /* PBXTargetDependency */,
+			);
+			name = HeroTrackerUITests;
+			productName = HeroTrackerUITests;
+			productReference = 7BAFC7051CCD594700CF0D42 /* HeroTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BAFC6E11CCD594600CF0D42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Oliver Short";
+				TargetAttributes = {
+					7BAFC6E81CCD594600CF0D42 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = FK453D76P8;
+					};
+					7BAFC7041CCD594700CF0D42 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = FK453D76P8;
+						TestTargetID = 7BAFC6E81CCD594600CF0D42;
+					};
+				};
+			};
+			buildConfigurationList = 7BAFC6E41CCD594600CF0D42 /* Build configuration list for PBXProject "HeroTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BAFC6E01CCD594600CF0D42;
+			productRefGroup = 7BAFC6EA1CCD594600CF0D42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BAFC6E81CCD594600CF0D42 /* HeroTracker */,
+				7BAFC7041CCD594700CF0D42 /* HeroTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BAFC6E71CCD594600CF0D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAFC6FF1CCD594600CF0D42 /* LaunchScreen.storyboard in Resources */,
+				7BAFC6FC1CCD594600CF0D42 /* Assets.xcassets in Resources */,
+				7BAFC6F71CCD594600CF0D42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BAFC7031CCD594700CF0D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BAFC6E51CCD594600CF0D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAFC6F41CCD594600CF0D42 /* ViewController.m in Sources */,
+				7BAFC6F11CCD594600CF0D42 /* AppDelegate.m in Sources */,
+				7BAFC6FA1CCD594600CF0D42 /* HeroTracker.xcdatamodeld in Sources */,
+				7BAFC6EE1CCD594600CF0D42 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BAFC7011CCD594700CF0D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAFC70A1CCD594700CF0D42 /* HeroTrackerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BAFC7071CCD594700CF0D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BAFC6E81CCD594600CF0D42 /* HeroTracker */;
+			targetProxy = 7BAFC7061CCD594700CF0D42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BAFC6F51CCD594600CF0D42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BAFC6F61CCD594600CF0D42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BAFC6FD1CCD594600CF0D42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BAFC6FE1CCD594600CF0D42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BAFC70C1CCD594700CF0D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BAFC70D1CCD594700CF0D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BAFC70F1CCD594700CF0D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeroTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = oliverShort.HeroTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BAFC7101CCD594700CF0D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeroTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = oliverShort.HeroTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7BAFC7121CCD594700CF0D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeroTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = oliverShort.HeroTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeroTracker;
+			};
+			name = Debug;
+		};
+		7BAFC7131CCD594700CF0D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeroTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = oliverShort.HeroTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeroTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BAFC6E41CCD594600CF0D42 /* Build configuration list for PBXProject "HeroTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAFC70C1CCD594700CF0D42 /* Debug */,
+				7BAFC70D1CCD594700CF0D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BAFC70E1CCD594700CF0D42 /* Build configuration list for PBXNativeTarget "HeroTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAFC70F1CCD594700CF0D42 /* Debug */,
+				7BAFC7101CCD594700CF0D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BAFC7111CCD594700CF0D42 /* Build configuration list for PBXNativeTarget "HeroTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAFC7121CCD594700CF0D42 /* Debug */,
+				7BAFC7131CCD594700CF0D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7BAFC6F81CCD594600CF0D42 /* HeroTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7BAFC6F91CCD594600CF0D42 /* HeroTracker.xcdatamodel */,
+			);
+			currentVersion = 7BAFC6F91CCD594600CF0D42 /* HeroTracker.xcdatamodel */;
+			path = HeroTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7BAFC6E11CCD594600CF0D42 /* Project object */;
+}
