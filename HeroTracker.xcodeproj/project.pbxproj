@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		7BAFC6EE1CCD594600CF0D42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFC6ED1CCD594600CF0D42 /* main.m */; };
 		7BAFC6F11CCD594600CF0D42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFC6F01CCD594600CF0D42 /* AppDelegate.m */; };
-		7BAFC6F41CCD594600CF0D42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFC6F31CCD594600CF0D42 /* ViewController.m */; };
+		7BAFC6F41CCD594600CF0D42 /* HeroTabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFC6F31CCD594600CF0D42 /* HeroTabelViewController.m */; };
 		7BAFC6F71CCD594600CF0D42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAFC6F51CCD594600CF0D42 /* Main.storyboard */; };
 		7BAFC6FA1CCD594600CF0D42 /* HeroTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFC6F81CCD594600CF0D42 /* HeroTracker.xcdatamodeld */; };
 		7BAFC6FC1CCD594600CF0D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAFC6FB1CCD594600CF0D42 /* Assets.xcassets */; };
 		7BAFC6FF1CCD594600CF0D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAFC6FD1CCD594600CF0D42 /* LaunchScreen.storyboard */; };
 		7BAFC70A1CCD594700CF0D42 /* HeroTrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFC7091CCD594700CF0D42 /* HeroTrackerUITests.m */; };
+		7BAFC7151CCDB9FD00CF0D42 /* heroes.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BAFC7141CCDB9FD00CF0D42 /* heroes.json */; };
+		7BAFC7191CCE1B0E00CF0D42 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFC7181CCE1B0E00CF0D42 /* Hero.m */; };
+		7BAFC71C1CCE219A00CF0D42 /* HeroDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFC71B1CCE219A00CF0D42 /* HeroDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,8 +35,8 @@
 		7BAFC6ED1CCD594600CF0D42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7BAFC6EF1CCD594600CF0D42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7BAFC6F01CCD594600CF0D42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7BAFC6F21CCD594600CF0D42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7BAFC6F31CCD594600CF0D42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7BAFC6F21CCD594600CF0D42 /* HeroTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeroTableViewController.h; sourceTree = "<group>"; };
+		7BAFC6F31CCD594600CF0D42 /* HeroTabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroTabelViewController.m; sourceTree = "<group>"; };
 		7BAFC6F61CCD594600CF0D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BAFC6F91CCD594600CF0D42 /* HeroTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeroTracker.xcdatamodel; sourceTree = "<group>"; };
 		7BAFC6FB1CCD594600CF0D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +45,11 @@
 		7BAFC7051CCD594700CF0D42 /* HeroTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAFC7091CCD594700CF0D42 /* HeroTrackerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroTrackerUITests.m; sourceTree = "<group>"; };
 		7BAFC70B1CCD594700CF0D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BAFC7141CCDB9FD00CF0D42 /* heroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = heroes.json; path = ../../heroes.json; sourceTree = "<group>"; };
+		7BAFC7171CCE1B0E00CF0D42 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		7BAFC7181CCE1B0E00CF0D42 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		7BAFC71A1CCE219A00CF0D42 /* HeroDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroDetailViewController.h; sourceTree = "<group>"; };
+		7BAFC71B1CCE219A00CF0D42 /* HeroDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +93,14 @@
 			children = (
 				7BAFC6EF1CCD594600CF0D42 /* AppDelegate.h */,
 				7BAFC6F01CCD594600CF0D42 /* AppDelegate.m */,
-				7BAFC6F21CCD594600CF0D42 /* ViewController.h */,
-				7BAFC6F31CCD594600CF0D42 /* ViewController.m */,
+				7BAFC7171CCE1B0E00CF0D42 /* Hero.h */,
+				7BAFC7181CCE1B0E00CF0D42 /* Hero.m */,
+				7BAFC6F21CCD594600CF0D42 /* HeroTableViewController.h */,
+				7BAFC6F31CCD594600CF0D42 /* HeroTabelViewController.m */,
+				7BAFC71A1CCE219A00CF0D42 /* HeroDetailViewController.h */,
+				7BAFC71B1CCE219A00CF0D42 /* HeroDetailViewController.m */,
 				7BAFC6F51CCD594600CF0D42 /* Main.storyboard */,
+				7BAFC7141CCDB9FD00CF0D42 /* heroes.json */,
 				7BAFC6FB1CCD594600CF0D42 /* Assets.xcassets */,
 				7BAFC6FD1CCD594600CF0D42 /* LaunchScreen.storyboard */,
 				7BAFC7001CCD594600CF0D42 /* Info.plist */,
@@ -197,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BAFC6FF1CCD594600CF0D42 /* LaunchScreen.storyboard in Resources */,
+				7BAFC7151CCDB9FD00CF0D42 /* heroes.json in Resources */,
 				7BAFC6FC1CCD594600CF0D42 /* Assets.xcassets in Resources */,
 				7BAFC6F71CCD594600CF0D42 /* Main.storyboard in Resources */,
 			);
@@ -216,8 +230,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BAFC6F41CCD594600CF0D42 /* ViewController.m in Sources */,
+				7BAFC7191CCE1B0E00CF0D42 /* Hero.m in Sources */,
+				7BAFC6F41CCD594600CF0D42 /* HeroTabelViewController.m in Sources */,
 				7BAFC6F11CCD594600CF0D42 /* AppDelegate.m in Sources */,
+				7BAFC71C1CCE219A00CF0D42 /* HeroDetailViewController.m in Sources */,
 				7BAFC6FA1CCD594600CF0D42 /* HeroTracker.xcdatamodeld in Sources */,
 				7BAFC6EE1CCD594600CF0D42 /* main.m in Sources */,
 			);
